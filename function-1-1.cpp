@@ -12,7 +12,8 @@ void printer(int array[10][10])
         }
         cout << array[i][9];
         cout << endl;
-        cout << endl;
     }
+    
+
 }
 
