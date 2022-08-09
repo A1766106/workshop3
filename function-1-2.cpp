@@ -8,9 +8,16 @@ void print_class(std::string courses[4], std::string students[], int report_card
     cout << "Report Card ";
     for(int i=0; i<4; i++)
     {
-        cout << courses[i] << " ";
+        if(i!=3)
+        {
+            cout << courses[i] << " "; 
+        }
+        else
+        {
+            cout << courses[i] << endl;
+        }
+        
     }
-    cout << endl; 
 
     for(int j=0; j<nstudents; j++)
     {
