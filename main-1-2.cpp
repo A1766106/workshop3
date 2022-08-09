@@ -19,8 +19,9 @@ int main()
     for(int i=0; i<nstudents; i++)
     {
         cout << "Please enter the name of one of the students: ";
-        cin.ignore(1,'\n');
-        getline(cin,students[i]);
+        // cin.ignore(1,'\n');
+        // getline(cin,students[i]);
+        cin >> students[i];
         cout << endl;
     }
 
