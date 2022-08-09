@@ -15,10 +15,12 @@ void print_class(std::string courses[4], std::string students[], int report_card
     for(int j=0; j<nstudents; j++)
     {
         cout << students[j] << " ";
-        for(int p=0; p<4; p++)
+        for(int p=0; p<3; p++)
         {
             cout << report_card[j][p] << " ";
         }
+        cout << report_card[j][4];
         cout << endl;
+        
     }
 }
